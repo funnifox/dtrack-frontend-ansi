@@ -718,6 +718,8 @@
     "fsf_libre": "FSF Libre",
     "fullname": "Повне ім'я",
     "general": "Загальне",
+    "ansible": "Ansible",
+    "run_ansible": "Run Ansible",
     "global_audit": "Глобальний аудит",
     "group": "Група",
     "group_name": "Назва групи",

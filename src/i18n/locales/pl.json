@@ -718,6 +718,8 @@
     "fsf_libre": "Darmowa wersja FSF",
     "fullname": "Pełne imię i nazwisko",
     "general": "Ogólny",
+    "ansible": "Ansible",
+    "run_ansible": "Run Ansible",
     "global_audit": "Globalny audyt",
     "group": "Grupa",
     "group_name": "Nazwa grupy",

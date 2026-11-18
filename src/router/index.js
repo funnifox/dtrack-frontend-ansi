@@ -18,57 +18,35 @@ const DefaultContainer = () => import('@/containers/DefaultContainer.vue');
 
 // Views
 const Dashboard = () => import('@/views/Dashboard.vue');
-const ProjectListView = () =>
-  import('@/views/portfolio/projects/ProjectListView.vue');
+const ProjectListView = () =>import('@/views/portfolio/projects/ProjectListView.vue');
 const TagList = () => import('@/views/portfolio/tags/TagList.vue');
-const ComponentSearch = () =>
-  import('@/views/portfolio/components/ComponentSearch.vue');
-const VulnerabilityList = () =>
-  import('@/views/portfolio/vulnerabilities/VulnerabilityList.vue');
-const VulnerabilityAudit = () =>
-  import('@/views/globalAudit/VulnerabilityAudit.vue');
+const ComponentSearch = () => import('@/views/portfolio/components/ComponentSearch.vue');
+const VulnerabilityList = () => import('@/views/portfolio/vulnerabilities/VulnerabilityList.vue');
+const VulnerabilityAudit = () => import('@/views/globalAudit/VulnerabilityAudit.vue');
 const LicenseList = () => import('@/views/portfolio/licenses/LicenseList.vue');
 const PolicyManagement = () => import('@/views/policy/PolicyManagement.vue');
-const VulnerabilityPolicyEditor = () =>
-  import('@/views/policy/VulnerabilityPolicyEditor.vue');
+const VulnerabilityPolicyEditor = () => import('@/views/policy/VulnerabilityPolicyEditor.vue');
 const Project = () => import('@/views/portfolio/projects/Project.vue');
-const PolicyViolationAudit = () =>
-  import('@/views/audit/PolicyViolationAudit.vue');
-
-const Administration = () =>
-  import('@/views/administration/Administration.vue');
-const General = () =>
-  import('@/views/administration/configuration/General.vue');
-const BomFormats = () =>
-  import('@/views/administration/configuration/BomFormats.vue');
-const WelcomeMessage = () =>
-  import('@/views/administration/configuration/WelcomeMessage.vue');
-const Banner = () =>
-  import('@/views/administration/configuration/BannerConfiguration.vue');
-const InternalComponents = () =>
-  import('@/views/administration/configuration/InternalComponents.vue');
-const Maintenance = () =>
-  import('@/views/administration/configuration/Maintenance.vue');
-const RiskScore = () =>
-  import('@/views/administration/configuration/RiskScore.vue');
-const Telemetry = () =>
-  import('@/views/administration/configuration/Telemetry.vue');
-const SecretsManagement = () =>
-  import('@/views/administration/secrets/SecretsManagement.vue');
-
+const PolicyViolationAudit = () => import('@/views/audit/PolicyViolationAudit.vue');
+const RunAnsible = () => import('@/views/ansible/AnsiblePage.vue');
+const Administration = () => import('@/views/administration/Administration.vue');
+const General = () => import('@/views/administration/configuration/General.vue');
+const BomFormats = () => import('@/views/administration/configuration/BomFormats.vue');
+const WelcomeMessage = () => import('@/views/administration/configuration/WelcomeMessage.vue');
+const Banner = () => import('@/views/administration/configuration/BannerConfiguration.vue');
+const InternalComponents = () => import('@/views/administration/configuration/InternalComponents.vue');
+const Maintenance = () => import('@/views/administration/configuration/Maintenance.vue');
+const RiskScore = () => import('@/views/administration/configuration/RiskScore.vue');
+const Telemetry = () => import('@/views/administration/configuration/Telemetry.vue');
+const SecretsManagement = () => import('@/views/administration/secrets/SecretsManagement.vue');
 const AnalyzerView = () => import('@/views/administration/analyzers/Index.vue');
-
-const DataSourceView = () =>
-  import('@/views/administration/data-sources/Index.vue');
-
+const DataSourceView = () =>import('@/views/administration/data-sources/Index.vue');
 const Cargo = () => import('@/views/administration/repositories/Cargo.vue');
-const Composer = () =>
-  import('@/views/administration/repositories/Composer.vue');
+const Composer = () => import('@/views/administration/repositories/Composer.vue');
 const Cpan = () => import('@/views/administration/repositories/Cpan.vue');
 const Gem = () => import('@/views/administration/repositories/Gem.vue');
 const GitHub = () => import('@/views/administration/repositories/GitHub.vue');
-const GoModules = () =>
-  import('@/views/administration/repositories/GoModules.vue');
+const GoModules = () => import('@/views/administration/repositories/GoModules.vue');
 const Hackage = () => import('@/views/administration/repositories/Hackage.vue');
 const Hex = () => import('@/views/administration/repositories/Hex.vue');
 const Maven = () => import('@/views/administration/repositories/Maven.vue');
@@ -76,55 +54,32 @@ const Nixpkgs = () => import('@/views/administration/repositories/Nixpkgs.vue');
 const Npm = () => import('@/views/administration/repositories/Npm.vue');
 const Nuget = () => import('@/views/administration/repositories/Nuget.vue');
 const Python = () => import('@/views/administration/repositories/Python.vue');
-
 const Alerts = () => import('@/views/administration/notifications/Alerts.vue');
-const Templates = () =>
-  import('@/views/administration/notifications/Templates.vue');
-const Publishers = () =>
-  import('@/views/administration/notifications/Publishers.vue');
-
-const FortifySsc = () =>
-  import('@/views/administration/integrations/FortifySsc.vue');
-const DefectDojo = () =>
-  import('@/views/administration/integrations/DefectDojo.vue');
-const KennaSecurity = () =>
-  import('@/views/administration/integrations/KennaSecurity.vue');
-
-const LdapUsers = () =>
-  import('@/views/administration/accessmanagement/LdapUsers/index.vue');
-const ManagedUsers = () =>
-  import('@/views/administration/accessmanagement/ManagedUsers/index.vue');
-const OidcUsers = () =>
-  import('@/views/administration/accessmanagement/OidcUsers/index.vue');
-const OidcGroups = () =>
-  import('@/views/administration/accessmanagement/OidcGroups.vue');
-const ServiceAccounts = () =>
-  import('@/views/administration/accessmanagement/ServiceAccounts/index.vue');
-const WorkloadIdentityProviders = () =>
-  import('@/views/administration/accessmanagement/WorkloadIdentityProviders/index.vue');
-const Teams = () =>
-  import('@/views/administration/accessmanagement/Teams/index.vue');
-const Permissions = () =>
-  import('@/views/administration/accessmanagement/Permissions.vue');
-const PortfolioAccessControl = () =>
-  import('@/views/administration/accessmanagement/PortfolioAccessControl.vue');
-const TaskQueueList = () =>
-  import('@/views/administration/workflows/TaskQueueList.vue');
-const WorkflowRunList = () =>
-  import('@/views/administration/workflows/WorkflowRunList.vue');
-const WorkflowRunDetail = () =>
-  import('@/views/administration/workflows/WorkflowRunDetail.vue');
-
+const Templates = () => import('@/views/administration/notifications/Templates.vue');
+const Publishers = () => import('@/views/administration/notifications/Publishers.vue');
+const FortifySsc = () => import('@/views/administration/integrations/FortifySsc.vue');
+const DefectDojo = () => import('@/views/administration/integrations/DefectDojo.vue');
+const KennaSecurity = () => import('@/views/administration/integrations/KennaSecurity.vue');
+const LdapUsers = () => import('@/views/administration/accessmanagement/LdapUsers/index.vue');
+const ManagedUsers = () => import('@/views/administration/accessmanagement/ManagedUsers/index.vue');
+const OidcUsers = () => import('@/views/administration/accessmanagement/OidcUsers/index.vue');
+const OidcGroups = () => import('@/views/administration/accessmanagement/OidcGroups.vue');
+const ServiceAccounts = () => import('@/views/administration/accessmanagement/ServiceAccounts/index.vue');
+const WorkloadIdentityProviders = () => import('@/views/administration/accessmanagement/WorkloadIdentityProviders/index.vue');
+const Teams = () => import('@/views/administration/accessmanagement/Teams/index.vue');
+const Permissions = () => import('@/views/administration/accessmanagement/Permissions.vue');
+const PortfolioAccessControl = () => import('@/views/administration/accessmanagement/PortfolioAccessControl.vue');
+const TaskQueueList = () => import('@/views/administration/workflows/TaskQueueList.vue');
+const WorkflowRunList = () => import('@/views/administration/workflows/WorkflowRunList.vue');
+const WorkflowRunDetail = () => import('@/views/administration/workflows/WorkflowRunDetail.vue');
 const Component = () => import('@/views/portfolio/projects/Component.vue');
 const Service = () => import('@/views/portfolio/projects/Service.vue');
-const Vulnerability = () =>
-  import('@/views/portfolio/vulnerabilities/Vulnerability.vue');
+const Vulnerability = () => import('@/views/portfolio/vulnerabilities/Vulnerability.vue');
 const License = () => import('@/views/portfolio/licenses/License.vue');
 
 // Pages
 const Login = () => import('@/views/pages/Login.vue');
-const PasswordForceChange = () =>
-  import('@/views/pages/PasswordForceChange.vue');
+const PasswordForceChange = () => import('@/views/pages/PasswordForceChange.vue');
 const Page404 = () => import('@/views/pages/Page404.vue');
 
 function configRoutes() {
@@ -156,6 +111,18 @@ function configRoutes() {
             i18n: 'message.projects',
             sectionPath: '/projects',
             sectionName: 'Projects',
+            permissions: ['VIEW_PORTFOLIO'],
+          },
+        },
+        {
+          path: 'ansible',
+          name: 'Run Ansible',
+          component: RunAnsible,
+          meta: {
+            title: 'Run Ansible',
+            i18n: 'message.ansible',
+            sectionPath: '/ansible',
+            sectionName: 'Ansible',
             permissions: ['VIEW_PORTFOLIO'],
           },
         },

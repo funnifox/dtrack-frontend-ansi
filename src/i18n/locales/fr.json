@@ -718,6 +718,8 @@
     "fsf_libre": "FSF Libre",
     "fullname": "Nom et prénom",
     "general": "Général",
+    "ansible": "Ansible",
+    "run_ansible": "Run Ansible",
     "global_audit": "Vérification globale",
     "group": "Groupe",
     "group_name": "Nom de groupe",

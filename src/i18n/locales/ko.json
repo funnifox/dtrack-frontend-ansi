@@ -719,6 +719,8 @@
     "fsf_libre": "FSF Libre",
     "fullname": "이름",
     "general": "일반",
+    "ansible": "Ansible",
+    "run_ansible": "Run Ansible",
     "global_audit": "전역 심사",
     "group": "그룹",
     "group_name": "그룹 이름",

@@ -718,6 +718,8 @@
     "fsf_libre": "FSF Libre",
     "fullname": "全名",
     "general": "一般",
+    "ansible": "Ansible",
+    "run_ansible": "Run Ansible",
     "global_audit": "全球稽核",
     "group": "群組",
     "group_name": "群組名稱",

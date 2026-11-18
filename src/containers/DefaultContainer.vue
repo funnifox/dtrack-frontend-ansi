@@ -222,6 +222,29 @@ export default {
             permissions.SYSTEM_CONFIGURATION_DELETE,
           ],
         },
+        {
+          title: true,
+          name: this.$t('message.ansible'),
+          permission: [
+            permissions.SYSTEM_CONFIGURATION,
+            permissions.SYSTEM_CONFIGURATION_CREATE,
+            permissions.SYSTEM_CONFIGURATION_READ,
+            permissions.SYSTEM_CONFIGURATION_UPDATE,
+            permissions.SYSTEM_CONFIGURATION_DELETE,
+          ],
+        },
+        {
+          name: this.$t('message.run_ansible'),
+          url: '/policy',
+          icon: 'fa fa-list-alt',
+          permission: [
+            permissions.POLICY_MANAGEMENT,
+            permissions.POLICY_MANAGEMENT_CREATE,
+            permissions.POLICY_MANAGEMENT_READ,
+            permissions.POLICY_MANAGEMENT_UPDATE,
+            permissions.POLICY_MANAGEMENT_DELETE,
+          ],
+        },
       ],
     };
   },
